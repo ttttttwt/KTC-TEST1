@@ -15,9 +15,9 @@ export default function UserDetail() {
         }
         return (
           <div key={user.id} className="space-y-2">
-            <p className="text-gray-700">
+            {/* <p className="text-gray-700">
               <span className="font-semibold">ID:</span> {user.id}
-            </p>
+            </p> */}
             <p className="text-gray-700">
               <span className="font-semibold">Name:</span> {user.name}
             </p>
