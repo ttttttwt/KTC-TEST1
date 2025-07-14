@@ -3,7 +3,7 @@ import { UserProvider } from "./contexts/UserProvider";
 import HomePage from "./pages/HomePage";
 import UserDetail from "./pages/UserDetailPage";
 import UserListPage from "./pages/UserListPage";
-import Header from "./pages/header";
+import Header from "./pages/HeaderLayout";
 
 const router = createBrowserRouter([
   {
